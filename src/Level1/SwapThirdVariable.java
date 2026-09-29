@@ -1,3 +1,5 @@
+package Level1;
+
 //Write a program to swap two numbers using a third variable.
 public class SwapThirdVariable {
     public static void main(String[] args){

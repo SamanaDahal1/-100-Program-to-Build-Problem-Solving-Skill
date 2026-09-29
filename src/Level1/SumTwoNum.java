@@ -1,3 +1,5 @@
+package Level1;
+
 import java.util.Scanner;
 //Write a program to read two numbers and print their sum.
 public class SumTwoNum {

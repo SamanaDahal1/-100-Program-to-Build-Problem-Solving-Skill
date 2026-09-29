@@ -1,3 +1,5 @@
+package Level1;
+
 import java.util.Scanner;
 //Write a program to read the length and breadth of a rectangle and print its area and perimeter.
 public class RecAreaPerimeter {
