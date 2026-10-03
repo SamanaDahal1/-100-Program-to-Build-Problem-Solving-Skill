@@ -9,7 +9,7 @@ public class MultiplicationOfUserInputNumber {
         int num = src.nextInt();
         for(int i = 1;i<=10;i++){
             int store =num*i;
-            System.out.println("2 " + "* "+i +"= "+ store);
+            System.out.println(num + "* "+i +"= "+ store);
         }
     }
 }
