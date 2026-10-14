@@ -8,13 +8,12 @@ public class PerfectNumberOrNot {
         Scanner src = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = src.nextInt();
-        int og = num;
         for(int i =1 ;i<num;i++){
             if(num%i==0){
                 count+=i;
             }
         }
-        if(count==og){
+        if(count==num){
             System.out.println("Perfect Number");
         }
         else {
