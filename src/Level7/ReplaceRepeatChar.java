@@ -7,21 +7,19 @@ public class ReplaceRepeatChar {
         Scanner src = new Scanner(System.in);
         System.out.print("Enter a String: ");
         String words = src.nextLine();
-        String a="";
+        System.out.print("Enter character you want to replace: ");
+        char oldChar = src.next().charAt(0);
+        System.out.print("Enter new character: ");
+        char newChar = src.next().charAt(0);
+        String a = "";
         for (int i = 0; i < words.length(); i++) {
             char ch = words.charAt(i);
-            int count = 0;
-            for (int j = 0; j < words.length(); j++) {
-                if (ch == words.charAt(j)) {
-
-                    count++;
-
-                }
+            if (ch == oldChar) {
+                a += newChar;
             }
-            if (count != 1) {
-                a = words.replace(ch, 'o');
+            else {
+                a += ch;
             }
-
         }
         System.out.println(a);
     }
