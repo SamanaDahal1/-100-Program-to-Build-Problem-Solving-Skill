@@ -1,0 +1,22 @@
+package Level8;
+
+import java.util.Scanner;
+
+public class ReadArrayPrint {
+    public static void main(String[] args) {
+        Scanner src = new Scanner(System.in);
+        System.out.print("Enter size of array: ");
+        int size = src.nextInt();
+        String[] list = new String[size];
+        System.out.println("Enter string inside array");
+        for(int i=0;i<list.length;i++){
+            list[i] = src.next();
+
+        }
+        System.out.println("Printing List");
+        for(int i=0;i<list.length;i++) {
+            System.out.println(list[i]);
+        }
+    }
+
+}
