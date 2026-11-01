@@ -8,7 +8,7 @@ public class ReadArrayPrint {
         System.out.print("Enter size of array: ");
         int size = src.nextInt();
         String[] list = new String[size];
-        System.out.println("Enter string inside array");
+        System.out.println("Enter element: ");
         for(int i=0;i<list.length;i++){
             list[i] = src.next();
 
